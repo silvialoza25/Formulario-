@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Academia GEEK</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3711ba64be.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Estyles.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container__colum">
+            <div class="form-text">
+                <h1>Inscripciones Academia Geek</h1>
+                <p class="text" id="description"> Formulario para hacer registro de <br> jovenes entre 18 y
+                    35 años que les apasiona el Desarrollo.</p>
+            </div>
+            <div class="form-img">
+                <img src="data:image/png;base64,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"
+                    alt="">
+
+            </div>
+        </div>
+        <form class="form">
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba aquí su Nombre" required><br>
+            <input type="text" id="apellido" name="apellido" placeholder="Escriba aquí su Apellido" required><br>
+            <input class="input" id="number" min="18" max="35" type="number" placeholder="Edad">
+            <input type="email" id="Email" name="Email" placeholder="Ejemplo@gmail.com" required><br>
+            <div class="container__pais">
+                <label for="pais" required>País de origen</label>
+                <select name="pais" class="pais" required>
+                    <option value="">Selecciona tu ciudad</option>
+                    <option value="Arauca">Arauca</option>
+                    <option value="Bogota">Bogota</option>
+                    <option value="Barranquilla">Barranquilla</option>
+                    <option value="Buenaventura">Buenaventura</option>
+                    <option value="Cali">Cali</option>
+                    <option value="Cartagena">Cartagena</option>
+                </select><br>
+                <br>
+            </div>
+            <br>
+            <div class="container__carrera">
+                <label for="carrera" class="carrera-title">¿A qué carreras deseas inscribirte?</label> <br>
+
+                <label for="carrera">Desarrollo FrontEnd</label> <br>
+                <input type="checkbox" name="carrera" class="carrera">
+
+                <label for="carrera">Desarrollo BackEnd</label> <br><br>
+                <input type="checkbox" name="carrera" class="carrera">
+
+            </div>
+            <div class="modalidad">
+                <p>Modalidad</p> <br> <br>
+
+                <div class="modalidad-text">
+                    <div>
+                        <label for="modalidad">Presencial</label>
+                        <input type="radio" name="modalidad" class="presencial">
+                    </div>
+                    <div>
+                        <label for="modalidad">Virtual</label>
+                        <input type="radio" name="modalidad" class="virtual">
+                    </div>
+                    <br> <br>
+                </div>
+            </div>
+
+            <br><br>
+            <input type="submit" name="enviar" id="enviar">
+
+            <input type="reset" name="resetear" id="resetear">
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
