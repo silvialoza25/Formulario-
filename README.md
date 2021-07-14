@@ -1,1 +1,1 @@
-# Formulario-Activida Número uno Academia GEEk
+# Formulario-Actividad Número uno Academia GEEK
